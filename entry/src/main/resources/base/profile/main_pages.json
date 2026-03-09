@@ -1,0 +1,17 @@
+{
+  "src": [
+    "pages/废弃代码/routerAndNavigation/Demo04Navigation",
+    "pages/废弃代码/routerAndNavigation/Demo05Navigation",
+    "pages/废弃代码/routerAndNavigation/Demo06Navigation",
+    "pages/废弃代码/navigationParctice/navigationPage",
+    "pages/废弃代码/navigationParctice/navDmeoPage",
+    "pages/废弃代码/other/chenYuanBianLiangPage",
+    "pages/废弃代码/other/testttttPage",
+    "pages/废弃代码/other/Index",
+    "pages/Index1",
+    "pages/废弃代码/testConponent/dataPage",
+    "pages/废弃代码/test/scrollerPage",
+    "pages/废弃代码/test/scrollerPage1",
+    "pages/废弃代码/Se2026/FlexPage01"
+  ]
+}
