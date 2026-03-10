@@ -4,6 +4,10 @@ import { ReplyItem, ReplyItemModel } from "../models"
 @ComponentV2
 struct HmCommentItem {
   @Param item:ReplyItemModel=new ReplyItemModel({}as ReplyItem)  // 接收渲染的选项
+  @Event changeLike:()=>void =() =>{}//?不懂..event是事件，类型是()=>void。。子组件使用父组件，用event
+
+
+
   build() {
     Row({ space: 10 }) {
       Image(this.item.avatar)
@@ -29,13 +33,16 @@ struct HmCommentItem {
             Image($r("app.media.ic_like"))
               .width(12)
               .height(12)
-              .fillColor("#cacaca")
+              .fillColor(this.item.likeFlag ? Color.Red : "#cacaca")
 
-            Text(this.item.likeNum.toString())//空指针异常了
-              .fontColor("#cacaca")
+            Text((this.item.likeNum??0).toString())//空指针异常了
+              .fontColor(this.item.likeFlag ? Color.Red :"#cacaca")
               .fontSize(12)
 
           }
+          .onClick(()=>{
+            this.changeLike()
+          })
         }
         .justifyContent(FlexAlign.SpaceBetween)//中间留空，靠近两边
         .width('100%')

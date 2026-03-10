@@ -3,7 +3,10 @@
     "MODULES": [
       {
         "MODULE_NAME": "1043bfc77febe75fafec0c4309faccf1",
-        "API_TYPE": "stageMode"
+        "API_TYPE": "stageMode",
+        "INCREMENTAL_TASKS": {
+          "COMPILE_ARKTS": true
+        }
       }
     ],
     "NATIVE_COMPILER": "Default",
@@ -16,19 +19,22 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "1043bfc77febe75fafec0c4309faccf1": {
-        "CreateModuleInfo": 809000,
-        "ConfigureCmake": 163125,
-        "PreCheckSyscap": 269834,
-        "ProcessIntegratedHsp": 336917,
-        "BuildNativeWithCmake": 109917,
-        "SyscapTransform": 15475875,
-        "ProcessStartupConfig": 1068166,
-        "BuildNativeWithNinja": 589625,
-        "BuildJS": 767917,
-        "ProcessCompiledResources": 380958,
-        "PackingCheck": 2741084,
-        "CollectDebugSymbol": 328958,
-        "assembleHap": 105417
+        "CreateModuleInfo": 194375,
+        "ConfigureCmake": 101000,
+        "PreCheckSyscap": 104333,
+        "ProcessIntegratedHsp": 219625,
+        "BuildNativeWithCmake": 97291,
+        "SyscapTransform": 485334,
+        "ProcessStartupConfig": 388750,
+        "BuildNativeWithNinja": 175875,
+        "BuildJS": 757791,
+        "CompileArkTS": 410200708,
+        "ProcessCompiledResources": 220875,
+        "PackageHap": 19981792,
+        "PackingCheck": 1892375,
+        "SignHap": 71902542,
+        "CollectDebugSymbol": 295625,
+        "assembleHap": 92084
       }
     },
     "APIS": [
@@ -39,8 +45,6 @@
       "getAllNodes",
       "getRootNode",
       "getNodeName",
-      "getStartParams",
-      "buildFinished",
       "getNodePath",
       "subNodes",
       "getExtraOption",
@@ -51,10 +55,11 @@
       "getParameter",
       "getProductName",
       "nodesEvaluated",
-      "getCommandEntryTask"
+      "getCommandEntryTask",
+      "getStartParams"
     ],
     "CONFIG_PROPERTIES": {},
-    "BUILD_ID": "202603101313084970",
-    "TOTAL_TIME": 1179573417
+    "TOTAL_TIME": 626917958,
+    "BUILD_ID": "202603101856568900"
   }
 }

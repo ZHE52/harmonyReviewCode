@@ -9,15 +9,16 @@ export interface ReplyItem{
   likeFlag: boolean | null // 当前用户是否点过赞
 }
 
-export class ReplyItemModel implements ReplyItem{
+ @ObservedV2
+export  class ReplyItemModel implements ReplyItem{
   avatar: ResourceStr|string= ''
   author: string= ''
   id: number= 0
   content: string= ''
   time: string= ''
   area: string= ''
-  likeNum: number= 0
-  likeFlag:boolean|null= null
+  @Trace likeNum: number= 0
+  @Trace likeFlag:boolean|null= null
   constructor(model:ReplyItem) {//括号里面的是接口传过来的东西
     this.avatar=model.avatar//这里是通过接口传过来的东西，传递给当前class的xx值
     this.author=model.author
