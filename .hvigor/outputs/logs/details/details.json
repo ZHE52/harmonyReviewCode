@@ -3,15 +3,11 @@
     "MODULES": [
       {
         "MODULE_NAME": "1043bfc77febe75fafec0c4309faccf1",
-        "API_TYPE": "stageMode",
-        "INCREMENTAL_TASKS": {
-          "COMPILE_ARKTS": true
-        }
+        "API_TYPE": "stageMode"
       }
     ],
     "NATIVE_COMPILER": "Default",
-    "BUILD_MODE": "debug",
-    "USE_NORMALIZED_OHMURL": true
+    "BUILD_MODE": "debug"
   },
   "HVIGOR": {
     "IS_INCREMENTAL": true,
@@ -20,35 +16,19 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "1043bfc77febe75fafec0c4309faccf1": {
-        "init": 330042,
-        "PreBuild": 82485042,
-        "CreateModuleInfo": 503958,
-        "ConfigureCmake": 139167,
-        "MergeProfile": 2413375,
-        "CreateBuildProfile": 1210208,
-        "PreCheckSyscap": 283750,
-        "ProcessIntegratedHsp": 308959,
-        "BuildNativeWithCmake": 108709,
-        "MakePackInfo": 1545167,
-        "SyscapTransform": 8661833,
-        "ProcessProfile": 61738916,
-        "ProcessStartupConfig": 920542,
-        "BuildNativeWithNinja": 240625,
-        "GenerateLoaderJson": 5291458,
-        "ProcessLibs": 2989666,
-        "CompileResource": 150562250,
-        "BuildJS": 1181541,
-        "CompileArkTS": 4112205417,
-        "GeneratePkgModuleJson": 581875,
-        "ProcessCompiledResources": 237334,
-        "PackageHap": 21031500,
-        "PackingCheck": 3086417,
-        "SignHap": 521408583,
-        "CollectDebugSymbol": 397958,
-        "assembleHap": 101792
-      },
-      "APP": {
-        "init": 135667
+        "CreateModuleInfo": 809000,
+        "ConfigureCmake": 163125,
+        "PreCheckSyscap": 269834,
+        "ProcessIntegratedHsp": 336917,
+        "BuildNativeWithCmake": 109917,
+        "SyscapTransform": 15475875,
+        "ProcessStartupConfig": 1068166,
+        "BuildNativeWithNinja": 589625,
+        "BuildJS": 767917,
+        "ProcessCompiledResources": 380958,
+        "PackingCheck": 2741084,
+        "CollectDebugSymbol": 328958,
+        "assembleHap": 105417
       }
     },
     "APIS": [
@@ -74,7 +54,7 @@
       "getCommandEntryTask"
     ],
     "CONFIG_PROPERTIES": {},
-    "BUILD_ID": "202601281102289980",
-    "TOTAL_TIME": 5105156750
+    "BUILD_ID": "202603101313084970",
+    "TOTAL_TIME": 1179573417
   }
 }

@@ -12,6 +12,8 @@
     "pages/废弃代码/testConponent/dataPage",
     "pages/废弃代码/test/scrollerPage",
     "pages/废弃代码/test/scrollerPage1",
-    "pages/废弃代码/Se2026/FlexPage01"
+    "pages/废弃代码/Se2026/FlexPage01",
+    "pages/indexPage",
+    "pages/zhiHu/ZhiHuSzPage"
   ]
 }
