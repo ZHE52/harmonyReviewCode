@@ -19,6 +19,7 @@ struct Demo05RefreshList {
   //已经修改了邮箱，在测试一次
   //现在好像推不上去了
 
+  //测试
   build() {
     Column() {
       Refresh({
