@@ -20,6 +20,7 @@ struct Demo05RefreshList {
   //现在好像推不上去了
 
   //测试
+
   build() {
     Column() {
       Refresh({
@@ -30,6 +31,9 @@ struct Demo05RefreshList {
           ForEach(this.list, (item: number) => {
             ListItem() {
               Row() {
+                Text(item.toString())
+                Text(item.toString())
+                Text(item.toString())
                 Text(item.toString())
               }
               .width('100%')
